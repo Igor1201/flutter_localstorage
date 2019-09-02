@@ -1,3 +1,8 @@
+## 3.0.0
+
+- make it work with flutter on desktop (it doesn't depend on `path_provider` when TargetPlatform is desktop)
+- make `onError` a stream, specially to be compatible with non-Flutter Dart
+
 ## 2.0.0
 
 - fix inconsitent return format of `getItem`. It now always returns `JsonEncodable` representation of an item
